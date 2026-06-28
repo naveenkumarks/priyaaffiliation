@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AffiliateHub Market is a modern affiliate marketplace for creators, brands, and shoppers."
+    />
+    <title>AffiliateHub Market | Free Affiliate Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="brand" href="index.html">AffiliateHub Market</a>
+        <div class="nav-links">
+          <a href="#offers">Offers</a>
+          <a href="about.html">About</a>
+          <a href="disclosure.html">Disclosure</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="pill">Free launch-ready affiliate website</p>
+          <h1>Turn trusted recommendations into a revenue stream.</h1>
+          <p class="lead">
+            Publish product reviews, comparison guides, and curated offers in a polished site that is easy to launch and simple to grow.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#offers">Browse offers</a>
+            <a class="btn btn-secondary" href="disclosure.html">Read disclosure</a>
+          </div>
+          <ul class="trust-list">
+            <li>SEO-friendly pages</li>
+            <li>No-code setup</li>
+            <li>Free to host</li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <h3>Launch snapshot</h3>
+          <div class="metric">
+            <strong>+42%</strong>
+            <span>typical conversion lift from curated offers</span>
+          </div>
+          <div class="metric">
+            <strong>120+</strong>
+            <span>verified offers available in one place</span>
+          </div>
+          <div class="metric">
+            <strong>24/7</strong>
+            <span>simple tracking and reporting support</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="offers" class="section container">
+        <div class="section-heading">
+          <p class="pill">Featured offers</p>
+          <h2>Start with a strong set of products that your audience already wants.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Best laptops for creators</h3>
+            <p>Review premium and budget-friendly options for remote work, editing, and study use.</p>
+            <a class="btn btn-inline" href="https://example.com" target="_blank" rel="noreferrer noopener">View offer</a>
+          </article>
+          <article class="card">
+            <h3>Wireless earbuds</h3>
+            <p>Compare battery life, noise cancellation, and comfort in one clear buyer guide.</p>
+            <a class="btn btn-inline" href="https://example.com" target="_blank" rel="noreferrer noopener">See deal</a>
+          </article>
+          <article class="card">
+            <h3>Smart home bundles</h3>
+            <p>Highlight practical upgrades for comfort, security, and everyday convenience.</p>
+            <a class="btn btn-inline" href="https://example.com" target="_blank" rel="noreferrer noopener">Explore now</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container benefit-layout">
+          <div>
+            <p class="pill">For brands and creators</p>
+            <h2>Turn discovery into revenue without unnecessary friction.</h2>
+            <p>
+              AffiliateHub Market helps creators publish offers and shoppers find products that genuinely match their needs.
+            </p>
+          </div>
+          <div class="benefit-list">
+            <div>
+              <h3>Quick onboarding</h3>
+              <p>Launch your first landing page or offer hub in minutes.</p>
+            </div>
+            <div>
+              <h3>Clear reporting</h3>
+              <p>Track clicks and conversions without a complicated setup.</p>
+            </div>
+            <div>
+              <h3>Flexible monetization</h3>
+              <p>Support physical products, services, and digital tools alike.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container contact-section">
+        <div class="section-heading">
+          <p class="pill">Get started</p>
+          <h2>Be first to launch with AffiliateHub Market.</h2>
+          <p>Join the waitlist and get early access to a simple marketplace experience.</p>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); showMessage();">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
+          <button type="submit">Request access</button>
+        </form>
+        <p id="form-message" class="form-message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> AffiliateHub Market. Built for creators and brands.</p>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="disclosure.html">Disclosure</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
